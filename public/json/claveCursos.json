@@ -1,0 +1,18 @@
+[
+    {
+        "claveCurso": "aaa",
+        "descripcion": "ppp"
+    },
+    {
+        "claveCurso": "M",
+        "descripcion": "Mercacias"
+    },
+    {
+        "claveCurso": "V",
+        "descripcion": "Viajeros"
+    },
+    {
+        "claveCurso": "V\/M",
+        "descripcion": "Viajeros y mercancias"
+    }
+]

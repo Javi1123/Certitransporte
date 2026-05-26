@@ -1,0 +1,52 @@
+[
+    {
+        "DNI": "12345678A",
+        "claveCurso": "M",
+        "descripcion": "Mercacias"
+    },
+    {
+        "DNI": "22222222D",
+        "claveCurso": "M",
+        "descripcion": "Mercacias"
+    },
+    {
+        "DNI": "66666666H",
+        "claveCurso": "M",
+        "descripcion": "Mercacias"
+    },
+    {
+        "DNI": "12345678A",
+        "claveCurso": "V",
+        "descripcion": "Viajeros"
+    },
+    {
+        "DNI": "33333333E",
+        "claveCurso": "V",
+        "descripcion": "Viajeros"
+    },
+    {
+        "DNI": "66666666H",
+        "claveCurso": "V",
+        "descripcion": "Viajeros"
+    },
+    {
+        "DNI": "87654321B",
+        "claveCurso": "V",
+        "descripcion": "Viajeros"
+    },
+    {
+        "DNI": "11111111C",
+        "claveCurso": "V\/M",
+        "descripcion": "Viajeros y mercancias"
+    },
+    {
+        "DNI": "44444444F",
+        "claveCurso": "V\/M",
+        "descripcion": "Viajeros y mercancias"
+    },
+    {
+        "DNI": "88888888J",
+        "claveCurso": "V\/M",
+        "descripcion": "Viajeros y mercancias"
+    }
+]
