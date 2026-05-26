@@ -137,7 +137,7 @@ const editarAlumno = (e) =>{
 
   if(optionSeleccionada.textContent == "Pendiente"){
     optionVarianteUno.textContent = "Promoción";
-    optionVarianteUno.value = "PPromoción";
+    optionVarianteUno.value = "Promoción";
     optionVarianteDos.textContent = "Precio pagado";
     optionVarianteDos.value = "Precio pagado";
   } else if(optionSeleccionada.textContent == "Promoción"){

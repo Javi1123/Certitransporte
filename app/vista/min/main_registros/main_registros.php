@@ -44,7 +44,7 @@
 
     validarSiHayMasErrores($errores);
 
-    if(!$errores && correos_alumno_formación($nombre,$email)){
+    if(!$errores){
       $_SESSION["popErrores"] = [
         "icon" => "success",
         "titulo" => "Se ha registrado:",
@@ -66,7 +66,8 @@
       $c_DatosAlumno .= "<b>Interes:</b> " .$interes;
 
       correos_nosotros($c_Asunto, $c_DatosAlumno, $t_form);
-
+      correos_alumno_formación($nombre,$email);
+      
       $DNI = "";
       $nombre = "";
       $email = "";
