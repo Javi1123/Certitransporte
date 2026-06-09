@@ -139,10 +139,12 @@ const validaciones = async () =>{
     const {validacionesSugerencias} = await import ("./validaciones.js");
 
     formulario.addEventListener("submit", (e) => {
-      btnEnviarFormulario.textContent = "Comprobando...";
-      btnEnviarFormulario.disabled = true;
-      btnBorrarFormulario.remove();
-      validacionesSugerencias(e);
+      if(validacionesSugerencias(e)){
+        btnEnviarFormulario.textContent = "Comprobando...";
+        btnEnviarFormulario.disabled = true;
+        btnBorrarFormulario.remove();
+        formulario.submit();
+      }
     });
   }
 
@@ -154,10 +156,12 @@ const validaciones = async () =>{
     const {validacionesFormacion} = await import ("./validaciones.js");
 
     formulario.addEventListener("submit", (e) => {
-      btnEnviarFormulario.textContent = "Comprobando...";
-      btnEnviarFormulario.disabled = true;
-      btnBorrarFormulario.remove();
-      validacionesFormacion(e);
+      if(validacionesFormacion(e)){
+        btnEnviarFormulario.textContent = "Comprobando...";
+        btnEnviarFormulario.disabled = true;
+        btnBorrarFormulario.remove();
+        formulario.submit();
+      }
     });
   }
 

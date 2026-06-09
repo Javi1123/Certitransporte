@@ -114,14 +114,16 @@ export const validacionesSugerencias = e =>{
 
   if(errores.length == 1){
     popErrores(errores[0].icon, errores[0].title, errores[0].text);
+    return false;
   } else if (errores.length > 1){
     popErrores(
       "error",
       "Datos de Entrada Erróneos:",
       "Por favor, revise los datos e introdúzcalos correctamente"
     );
+    return false;
   } else if(errores.length == 0) {
-    formulario.submit();
+    return true;
   }
 
 }
@@ -299,14 +301,16 @@ export const validacionesFormacion = e =>{
 
   if(errores.length == 1){
     popErrores(errores[0].icon, errores[0].title, errores[0].text);
+    return false;
   } else if (errores.length > 1){
     popErrores(
       "error",
       "Datos de Entrada Erróneos:",
       "Por favor, revise los datos e introdúzcalos correctamente"
     );
+    return false;
   } else if(errores.length == 0) {
-    formulario.submit();
+    return true;
   }
 
 }
